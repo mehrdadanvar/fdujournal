@@ -1,9 +1,10 @@
 <template>
   <main class="main">
+    <section></section>
     <section>
       <Title />
+      <info-cart />
     </section>
-    <section>3</section>
   </main>
 </template>
 
@@ -12,7 +13,7 @@ export default {};
 </script>
 
 <style>
-.main {
+.main InfoCart {
   display: grid;
   grid-template-rows: 3fr 3fr 3fr 3fr;
   padding: 1rem;
